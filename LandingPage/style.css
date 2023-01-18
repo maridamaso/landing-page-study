@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-image: url(Imagens/fundo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.2vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+h1{
+    color: white;
+    font-size: 2.5vw;
+    cursor: pointer;
+    transition: 1s;
+}
+h1:hover{
+    color: #EA1E6D;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+    margin-right: 2vw;
+    transition: 1s;
+    font-family:'Franklin Gothic Medium';
+}
+nav a:hover{
+    color: #EA1E6D;
+}
+main{
+    display: block;
+}
+h2{
+    margin-top: 24.5vw;
+    text-align: center;
+    font-size: 5vw;
+    color: white;
+    margin-bottom: -0.5vw;
+}
+p{
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+}
+.botoes{
+    display: flex;
+    justify-content:center;
+}
+.botoes a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    border: 0.2vw solid white;
+    border-radius: 3vw;
+    transition: 1s;
+}
+.botoes a:hover{
+    background-color: #EA1E6D;
+    border: 0.3vw solid #EA1E6D;
+}
